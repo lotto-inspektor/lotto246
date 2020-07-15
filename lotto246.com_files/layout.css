@@ -1,0 +1,178 @@
+/*---主體樣式---*/
+  #container{ background-color: #fff; background-image:none; background-repeat: repeat; width:1000px; margin:0 auto; padding:0;!important;padding-top:3px; text-align:center; }
+  
+  /*---頂部樣式---*/
+  #container #header{
+  background-image: url(/web/20110207133212im_/http://lotto246.com/skins/default/header_bg.jpg);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  height:100px;
+  width:965px;
+  margin:15px auto 0;
+  list-style-image: none;
+  }
+  #container #header #blogname{ padding:10px 0 15px 10px; font-size:24px; color:#FFFFFF; font-weight: bold; text-align:left; background-image: none; background-repeat: no-repeat; margin: 0 auto !important; }
+  #container #header #blogname #blogTitle{ font-size:18px; margin:3px 3px 3px 0; font-weight: normal; height:16px; }
+  #container #header #menu{
+  font-size: 12px;
+  height:28px;
+  text-align:right;
+  /*visibility:hidden;*/
+  }
+  #container #header #menu #Left{
+  width:0px;
+  float:left;
+  }
+  #container #header #menu #Right{
+  width:0px;
+  float:right;
+  }  
+  #container #header #menu ul{
+  list-style:none;
+  margin:0 6px 0 0!important;
+  margin:0px 3px 0px 0px;
+  padding:0;
+  height:28px;
+  float:right;
+  } 
+  #container #header #menu ul li{
+  float:left;
+  height:28px;
+  }  
+   .menuL{
+   color: white;
+   background-image: none;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   width:5px;
+   padding:0;
+   }
+   .menuR{
+   color: white;
+   background-image: none;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   width:8px;
+   padding:0;
+   }  
+   .menuDiv{
+   color: white;
+   background-image:none;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: 0 0;
+   width:4px;
+   padding:0;
+   }
+
+
+   /*---內容樣式---*/
+  #container #Tbody{
+  width:960px;
+  margin:0 auto;
+  text-align:left;
+  padding:5px;
+  }
+  /*---工具條--*/
+  #sidebar{ color: #666; background-image: none; background-repeat: repeat; background-attachment: scroll; background-position: 0 0; width:230px; margin:10px -3px -3px; text-align:center; border-top: 5px solid #f3f3f3; border-left: 5px solid #f3f3f3; border-right: 5px solid #f3f3f3;border-top-sty;border-bottom-style: none; }
+  #innersidebar{  }
+  #sidebar-topimg{  }
+  #sidebar-bottomimg{height:5px;width:230px;background:#f3f3f3 no-repeat;overflow:hidden;}
+  /*---工具箱樣式--*/
+  .sidepanel{ width:220px; margin:0 auto!important; margin:0px; padding: 0px; font-align: center; }
+  .Ptitle{ font: bold 12px Tahoma; color:white;background:#A3C159 url(/web/20110207133212im_/http://lotto246.com/skins/default/corner_top_left.gif) top left no-repeat;text-align: left;padding: 5px;margin: 3px; }
+  .Pcontent{text-align:left;padding-left:3px;padding-top:0;line-height:160%}  
+  .Pfoot{margin:0px 0px 5px 0px;}  
+
+  /*---主內容--*/   
+  #mainContent{ background-image: none; background-repeat: repeat-y; background-attachment: scroll; background-position: 0 0; float:right; margin-right:0px!important; margin-right:0px;width:710px; text-align:center; margin-top: 5px; overflow:hidden;}
+
+  #innermainContent{ width: 500px; overflow:visible; margin-right: 236px; border: solid 5px #f3f3f3; }
+  #mainContent-topimg{ background-image: none; background-repeat: no-repeat; background-attachment: scroll; background-position: 0 0; height:10px; overflow:hidden; }
+  #mainContent-bottomimg{ background-image: none; background-repeat: no-repeat; background-attachment: scroll; background-position: 0 0; height:10px; overflow:hidden; }
+  .content-width{ width:680px; margin:auto; }/*--主內容元素的全局寬度--*/
+  /*---主內容頁數--*/
+  .pageContent{margin:0 auto;padding:3px;text-align:left;height:18px;} 
+  .NavTitle{float:left;}
+  .page{padding-right:5px;height:18px;}
+  .page ul{list-style:none;margin:0px;padding:0px} 
+  .page ul li{float:left;padding:0px 3px 0px 3px;} 
+  .page ul li.PageL {width:9px;height:16px;}
+  .page ul li.PageR {width:9px;height:16px;}
+  .PageLbutton{background:transparent;width:9px;height:16px;display:block;}
+  .PageRbutton{background:transparent;width:9px;height:16px;display:block;}
+  /*---內容框--*/
+  .Content{margin:0 auto;font-family:Tahoma, Georgia, "Courier New", 宋體;}    
+
+
+  /*---日誌標題框--*/
+  .Content-top{background:url('/web/20110207133212im_/http://lotto246.com/skins/default/title_bg.gif');padding:2px;text-align:left;margin-bottom:2px;}
+  .Content-top .ContentLeft{width:0px;float:left;}
+  .Content-top .ContentRight{width:0px;float:right;}
+  .Content-top .ContentTitle{background:url('/web/20110207133212im_/http://lotto246.com/skins/default/logIcon.gif') no-repeat left;color: #FA0000;font-size:14px;padding:3px 0px 3px 25px;margin:0px;}
+  .Content-top .ContentAuthor{color:#666;font-size:11px;padding-top:4px;padding-left:25px;margin:0px; font-weight:normal;} 
+
+  /*---日誌內容框--*/
+  .Content-body{margin:8px auto;overflow:hidden;text-align:left;width:100%;}
+  /*---日誌內容底部--*/
+  .Content-bottom{ text-align:right; background:repeat-x; height:30px; margin-bottom: 10px; padding:3px 2px 8px; }
+  .Content-bottom .ContentBLeft{width:0px;float:left;}
+  .Content-bottom .ContentBRight{width:0px;float:right;}
+
+  /*---日誌其他信息--*/
+  .Content-Info {margin:0px 4px 6px 4px;padding:0px}
+  .Content-Info .InfoAuthor{text-align:left}
+  .Content-Info .InfoOther{float:right;text-align:right;}
+  /*--評論框--*/
+  .comment{text-align:left;margin:0px 12px 4px 12px}
+  .commentinfo{font-size:12px;color:#999;}
+  .commenttop{ font: 12px Tahoma; border-bottom:1px dotted #cccccc; padding:4px; background:#fff  }
+  .commentcontent{padding:10px;line-height:140%;overflow:hidden;width:94%}
+  /*---UBB框--*/ 
+  .UBBPanel{border:1px dotted #C2E5EF;}
+  .UBBTitle{font-weight:bold;padding:4px;}
+  .UBBContent{padding:6px;line-height:160%;}
+  .UBBContent TEXTAREA {width:448px;margin-bottom:2px;border:1px solid #C2E5EF;}
+  :link.UBBLink,:visited.UBBLink{font-size:11px;font-family:verdana;}
+  /*---信息框--*/
+  #MsgContent{border:1px solid #91D5D6;width:650px;padding:1px; background:#fff;margin:auto;}
+  #MsgContent #MsgHead{background:#91D5D6;color:#fff;padding:4px;text-align:center;font-weight:bold;}
+  #MsgContent #MsgBody{padding:4px;line-height:180%;}
+
+  .LDialog{border:solid 1px #cccccc;margin:3px auto;padding:1px;}
+  .LDialog .LHead{background:gray;padding:1px;color:#fff;text-align:center;}
+  .LDialog .LBody{padding:4px;line-height:200%;}
+
+/*信息框圖標以及文字*/
+   .MessageText{height:50px;margin-right:38px;}
+   .MessageIcon{background:url(/web/20110207133212im_/http://lotto246.com/images/Message.jpg) no-repeat;width:48px;height:48px;float:left;}
+   .ErrorIcon{background:url(/web/20110207133212im_/http://lotto246.com/images/Error.jpg) no-repeat;width:48px;height:48px;float:left;}
+   .WarningIcon{background:url(/web/20110207133212im_/http://lotto246.com/images/Warning.jpg) no-repeat;width:48px;height:48px;float:left;}   
+   .QuestionIcon{background:url(/web/20110207133212im_/http://lotto246.com/images/Question.jpg) no-repeat;width:48px;height:48px;float:left;}
+  /*---底部樣式---*/
+  #container #foot{ font:12px Tahoma; background-image: none; background-repeat: no-repeat; background-position: center bottom; bottom: 10px; margin:6px 0 0; height:60px; padding-top:10px; border-bottom: 20px solid #f3f3f3; }
+  /*---文件上傳框樣式---*/
+  .attachmentBody{
+  margin:0;font-size:12px;background:#f1f1f1
+  }
+/*
+     FILE ARCHIVED ON 13:32:12 Feb 07, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:32:03 Nov 28, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.resolve: 45.764
+  RedisCDXSource: 2.837
+  esindex: 0.015
+  captures_list: 59.487
+  exclusion.robots: 0.286
+  exclusion.robots.policy: 0.256
+  LoadShardBlock: 35.4 (3)
+  CDXLines.iter: 16.473 (3)
+  load_resource: 89.085
+  PetaboxLoader3.datanode: 47.875 (4)
+*/
